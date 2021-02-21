@@ -1,0 +1,55 @@
+.btn{
+    border: none;
+    padding: 10px;
+    background-color: rgb(106, 45, 218);
+    cursor: pointer;
+    border-radius:2px;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}
+
+.btn:hover {
+    
+    background-color: rgb(112, 66, 219);
+}
+
+.input {
+    padding: 10px;
+    border: none;
+    background-color: rgb(114, 31, 192);
+    color:white;
+    margin: 6px;
+    border-radius: 3px;
+}
+
+.password {
+    background-color: rgb(78, 28, 214);
+    padding: 10px;
+    width: 300px;
+    height:300px;
+    border-radius: 2px;
+   
+    margin: auto;
+    /* transform: translateX(200px); */
+    
+    /* justify-content: center; */
+   
+}
+
+.password p{
+    color:rgb(245, 241, 241);
+    background-color: rgb(130, 88, 228);
+    width: auto;
+    height: 20px;
+    margin-top:1px;
+}
+
+h1 {
+    color:aliceblue
+}
+
+body {
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
