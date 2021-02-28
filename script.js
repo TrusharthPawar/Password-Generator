@@ -18,11 +18,17 @@ let Random = () =>{
         sym+=16;
     }
     let result = value.join('');
-    console.log(result.length)
+    // console.log(result.length)
      result = result.substr(0,get_value)
-     console.log(result.length)
+    //  console.log(result.length)
    
     document.getElementById('demo').innerHTML = result;
     
  };
-// Random()
+
+let slider = document.getElementById('User_Value')
+let slider_value = document.getElementById('value');
+slider_value.innerHTML = slider.value; 
+slider.oninput = function () {
+    slider_value.innerHTML = this.value
+}
