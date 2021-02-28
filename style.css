@@ -14,27 +14,44 @@
     background-color: rgb(112, 66, 219);
 }
 
-.input {
-    padding: 10px;
-    border: none;
-    background-color: rgb(114, 31, 192);
-    color:white;
-    margin: 6px;
-    border-radius: 3px;
+.slider {
+    width: auto;
+    height: 5px;
+    background-color: rgb(155, 127, 255);
+    margin: 5px;
 }
 
+.slider::-webkit-slider-thumb{
+  /* -webkit-appearance: none; */
+    width: 15px;
+    height: 15px;
+  background-color: aqua;
+  cursor: pointer;
+}
+.slider::-moz-range-thumb{
+    width: 15px;
+    height: 15px;
+    background-color: aqua;
+    border-radius:50%
+}
+.slider::-ms-thumb{
+    width: 15px;
+    height: 15px;
+    background-color: aqua;
+    border-radius:50%
+}
 .password {
+
     background-color: rgb(78, 28, 214);
     padding: 10px;
     width: 300px;
     height:300px;
     border-radius: 2px;
-   
     margin: auto;
     /* transform: translateX(200px); */
     
     /* justify-content: center; */
-   
+  
 }
 
 .password p{
@@ -52,4 +69,17 @@ h1 {
 body {
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   
+}
+
+.length {
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+#value {
+    border-radius: 2px;
+    width:50px;
+    height: autox;
+    text-align: center;
+    margin-top: 10px;
 }
